@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+#nav {
+    overflow: hidden;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E1E4E7;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.31);
+
+
+}
+
+#nav ul {
+    overflow: hidden;
+    color: #535c65;
+    /* color: #97c8f7; */
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+#nav input {
+    padding: 8px 92px 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#nav input:focus {
+    outline: none;
+}
+
+/* ---------------------banner----------------------- */
+
+
+.banner{
+    margin-top: 20px;
+}
+.banner .banner-img {
+    height: 555px;
+    background: url('img/top-banner1.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.banner .banner-img .text{
+    padding-top: 115px;
+    padding-left: 390px;
+    /* text-align: center; */
+}
+
+
+.banner h1{
+    font-size: 60px;
+    color: #191d21;
+    /* font-family: 'Courier New', Courier, monospace; */
+    margin-left: 15px;
+}
+.banner h2{
+    padding-left: 35px;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.banner p{
+    font-size: 55px;
+    font-weight: 300;
+    margin-left: -55px;
+}
+.banner div{
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+.banner button{
+    margin-top: 20px;
+    margin-left: 0px;
+    background: #2552e9;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: #e1e4e7;
+    transition: all 0.5s;
+}
+
+.banner button:hover{
+    border: 2px solid #E1E4E7;
+    background: transparent;
+    color: #191d21;
+    font-weight: 600;
+
+}
+.banner button:focus{
+    outline: none;
+}
